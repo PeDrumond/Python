@@ -1,4 +1,92 @@
+#DICAS INICIAIS
+
 # [1] Para nomes de classes utilize Camel Case
 # [2] Para funções e variáveis utilize letras minúsculas e separe as palavras com underline
 # [3] Não esquecer de concatenar
-# [1] Para nomes de classes utilize Camel Case
+# [4] Duas linhas em branco entre as classes
+# [5] Imports devem sempre ser feitos em linhas separadas. Cada import em uma linha
+#Imports devem ser colocados no topo do arquivo, logo depois de quaisquer comentários ou docstrings e antes de constantes ou variáveis globais
+
+"""
+Blocos de comentários grandes podem ser colocados entre três aspas duplas.
+"""
+
+"""
+DIR e HELP
+
+DIR apresenta todos os atributos e funções/métodos, disponíveis para determinado tipo de dado ou variável.
+HELP apresenta a documentação/como utilizar os atributos/propriedades e funções/métodos disponíveis para determinado tipo de dado ou variável
+
+Por exemplo, se tivermos uma variável chamada Geek:
+
+dir("Geek")
+
+O comando acima trará todas as funções e métodos aplicáveis a esta variável. Quanto ao comando HELP...
+
+help("Geek".lower)
+
+O comando trará a explicação acerca do método .lower. A estrutra é help(tipo de dado/variável.propriedade).
+
+RECEBER DADOS DO USUÁRIO
+
+____________________________________
+print("Qual o seu nome? ")
+nome = input()
+
+print("Seja bem vindo %s" % nome)
+____________________________________
+
+input() significa entrada. Todo dado recebido via input() é uma string.
+%s vai pegar a variável do input() e substituir ela dentro do texto digitado. Quando houver mais de uma variável, elas devem vir entre parênteses.
+% vai separar o texto das variáveis que serão informadas
+
+_______________________________________________________
+print("Qual o seu nome? "
+nome = input()
+print("Seja bem vindo, %s! Qual a sua idade? " % nome)
+idade = input()
+print("%s tem %s de idade!" % (nome, idade))
+_______________________________________________________
+
+OS EXEMPLOS ACIMA FORAM UTILIZADOS ATRAVÉS DE UMA ESCRITA MAIS ANTIGA, HAVENDO DUAS FORMAS MAIS MODERNAS DE ESCREVER
+
+_______________________________________________________
+print("Qual o seu nome? ")
+nome = input()
+print("Seja bem vindo, {0}! Qual a sua idade? ".format(nome))
+idade = input()
+print("{0} tem {1} anos de idade!".format(nome, idade))
+_______________________________________________________
+print("Qual o seu nome? ")
+nome = input()
+print(f"Seja bem vindo, {nome}! Qual a sua idade? ")
+idade = input()
+print(f"{nome} tem {idade} anos de idade!")
+
+Esse modelo permite que processar operações dentro das chaves {}. Conforme vemos abaixo:
+
+print(f"A {nome} nasceu em {2020 - int(idade)}")
+
+Na linha de código acima int(idade) converteu o dado de input().
+Como já vimos, os dados recebidos pelo comando input() são do tipo string.
+Para realizar uma operação de subtração, a variável idade foi convertida de string para número inteiro através do cast int().
+_______________________________________________________
+
+É possível simplificar a recepção de dados por input nos exemplos acima utilizando o seguinte modelo:
+
+nome = input("Qual o seu nome? ")
+
+Desta forma, utilizamos apenas uma linha de código, ao invés de duas, tornando o código mais simples e enxuto.
+
+TIPOS DE VARIÁVEIS
+
+a) Numéricas - Inteiro: Quando atribuímos valores numéricos às variáveis.
+
+b) Numéricas - Float:Quando atribuímos valores numéricos reais, decimais.
+
+Como o sistema responde em inglês, o separador de casas decimais é o (.) e não a (,) utilizada no sistema de números decimais brasileiro
+
+c) Booleana: 
+
+d) String:
+"""
