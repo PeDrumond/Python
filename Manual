@@ -103,6 +103,8 @@ nome = "Pedro Drumond"
 print(nome[0:5])
 ______________________________________
 
+O comando acima irá printar apenas "Pedro"
+
 variável.upper() - COloca tudo em maiúsculo
 variável.lower() - Coloca tudo em minúsculo
 variável.split() - Coloca os valores da string em formato de lista de strings.
