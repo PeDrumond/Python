@@ -86,7 +86,27 @@ b) Numéricas - Float:Quando atribuímos valores numéricos reais, decimais.
 
 Como o sistema responde em inglês, o separador de casas decimais é o (.) e não a (,) utilizada no sistema de números decimais brasileiro
 
-c) Booleana: 
+c) Booleana: Quando a variável trabalha com lógica booleana, composta de duas constantes (Verdadeiro/Falso). Nas variáveis booleanas, os valores atribuídos são True ou False.
 
-d) String:
+Em booleana trabalhamos com operações, NOT(não), OR(ou) e AND(e)
+
+d) String: é considerado uma string sempre que estiver entre aspas simples, duplas ou aspas simples triplas. 
+
+/n  - Pula uma linha, como se tivesse dado Enter e continuado embaixo.
+
+type(nome da variável) - traz informações sobre o tipo de dado
+
+É possível selecionar elementos específicos de uma string (Slice de String), apontando o início e fim da posição que se deseja trabalhar. No exemplo abaixo vou printar só "Pedro"...
+
+______________________________________
+nome = "Pedro Drumond"
+print(nome[0:5])
+______________________________________
+
+variável.upper() - COloca tudo em maiúsculo
+variável.lower() - Coloca tudo em minúsculo
+variável.split() - Coloca os valores da string em formato de lista de strings.
+variável.replace("elemento a ser trocado", "elemento que irá substituir") - Troca elementos específicos da string por outros
+
+
 """
