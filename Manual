@@ -108,5 +108,16 @@ variável.lower() - Coloca tudo em minúsculo
 variável.split() - Coloca os valores da string em formato de lista de strings.
 variável.replace("elemento a ser trocado", "elemento que irá substituir") - Troca elementos específicos da string por outros
 
+ESCOPO DE VARIÁVEIS
+
+Escopo de uma variável é o espaço de uma variável, suas limitações e espaço de reconhecimento dentro do programa.
+
+1 - Variáveis globais: são reconhecidas; seu escopo compreende todo o programa.
+
+2 - Variáveis locais: são reconhecidas apenas no bloco onde foram declaradas; seu escopo está limitado ao bloco onde foi declarada.
+
+Estrutura da variável: nome_da_variavel = valor_da_variavel
+
+
 
 """
