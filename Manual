@@ -121,5 +121,28 @@ Escopo de uma variável é o espaço de uma variável, suas limitações e espa�
 Estrutura da variável: nome_da_variavel = valor_da_variavel
 
 
+ESTRUTURAS LÓGICAS E CONDICIONAIS EM PYTHON
+
+a) IF: cria uma condição para que alguma função seja executada. SE determinada condição for alcançada, o bloco de códigos é executado.
+
+if idade <18:
+    print("Menor de Idade")
+
+b) ELSE: acompanha a condição IF, sendo a função a ser executada caso a condição de IF não seja alcançada.
+
+if idade <18:
+    print("Menor de Idade")
+else:
+    print("Maior de Idade")
+
+c) ELIF: quando desejamos trabalhar com mais de uma condição, utilizamos o ELIF como outras possibilidades, com suas próprias linhas de comando a serem executadas caso alcançadas.
+
+if idade <18:
+    print("Menor de Idade")
+elif idade == 18:
+    print("Idade igual a 18 anos")
+else:
+    print("Maior de Idade")
+    
 
 """
