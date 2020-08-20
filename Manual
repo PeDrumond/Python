@@ -144,5 +144,13 @@ elif idade == 18:
 else:
     print("Maior de Idade")
     
+AND (e), OR (ou), NOT (não), IS (é) - São operadores booleanos, onde...
+
+AND - Todos os valores são True
+OR - Um ou outro valor é True
+NOT - O valor do Booleano é invertido. O not nega um valor.
+
+
+
 
 """
