@@ -109,6 +109,7 @@ variável.upper() - COloca tudo em maiúsculo
 variável.lower() - Coloca tudo em minúsculo
 variável.split() - Coloca os valores da string em formato de lista de strings.
 variável.replace("elemento a ser trocado", "elemento que irá substituir") - Troca elementos específicos da string por outros
+enumerate() - Diz quantos characteres há na variável
 
 ESCOPO DE VARIÁVEIS
 
@@ -120,6 +121,7 @@ Escopo de uma variável é o espaço de uma variável, suas limitações e espa�
 
 Estrutura da variável: nome_da_variavel = valor_da_variavel
 
+Em Python é possível fazer operações aritiméticas inclusive com variáveis sem valor numério. Por exemplo: nome = "Pedro"/ print(nome * 3) = PedroPedroPedro
 
 ESTRUTURAS LÓGICAS E CONDICIONAIS EM PYTHON
 
@@ -150,7 +152,48 @@ AND - Todos os valores são True
 OR - Um ou outro valor é True
 NOT - O valor do Booleano é invertido. O not nega um valor.
 
+LOOP
 
+Loop é uma estrutura de repetição. Utilizamos loop para iterar sobre sequencias ou valores iteráveis.
 
+a) FOR(PARA):
 
+for item in interável:
+    execução do loop
+
+_______________________________________
+Loop em String
+
+nome = "Pedro Drumond"
+for letra in nome:
+    print(letra)
+
+Loop em lista
+
+lista = [1, 3, 7, 9]
+for numero in lista:
+    print(numero)
+    
+Loop em range
+
+for numero in range(1, 10):
+    print(numero)
+_______________________________________
+
+Por padrão, o comando FOR em Python pula linha para cada elemento.Caso o programa não deseje dessa forma, deve usar o parâmetro end=
+
+_______________________________________
+nome = "Pedro Drumond"
+for letra in nome:
+    print(letra, end='')
+_______________________________________
+
+Ranges são sequências numéricas não aleatórias, que são especificadas pelo programador. A estrutura é:
+
+Estrutura 1 - range(valor_de_parada)
+Estrutura 2 - range(valor_de_início, valor_de_parada)
+Estrutura 3 - range(valor_de_início, valor_de_parada, de_quantos_em_quantos)
+Estrutura 4 - range(valor_de_início_maior, valor_de_parada_menor, decrementa_quantos)
+
+b) WHILE
 """
