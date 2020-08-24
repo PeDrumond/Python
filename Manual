@@ -195,5 +195,23 @@ Estrutura 2 - range(valor_de_início, valor_de_parada)
 Estrutura 3 - range(valor_de_início, valor_de_parada, de_quantos_em_quantos)
 Estrutura 4 - range(valor_de_início_maior, valor_de_parada_menor, decrementa_quantos)
 
-b) WHILE
+b) WHILE: funciona enquanto a expressão booleana for verdadeira. Num loop while é importante que cuidemos do critério de parada para evitar loopings infinitos.
+
+while expressao_booleana:
+    execução do loop
+    
+_________________________________________
+numero = 1
+
+while numero < 10:
+    print(numero)
+    numero = numero + 1
+_________________________________________
+resposta = ""
+
+while resposta != "sim":
+    resposta = input("Já acabou, Jéssica?")
+_________________________________________
+
+No geral, loops podem ser quebrados com BREAK.
 """
