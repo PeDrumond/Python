@@ -214,4 +214,12 @@ while resposta != "sim":
 _________________________________________
 
 No geral, loops podem ser quebrados com BREAK.
+
+LISTAS
+
+Funcionam como vetores/matrizes (arrays) em outras línguas, com a diferença que podem receber qualquer tipo de dados. As listas tem seus dados inseridos entre colchetes
+
+lista = []
+
+
 """
