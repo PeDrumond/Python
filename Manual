@@ -110,6 +110,7 @@ variável.lower() - Coloca tudo em minúsculo
 variável.split() - Coloca os valores da string em formato de lista de strings.
 variável.replace("elemento a ser trocado", "elemento que irá substituir") - Troca elementos específicos da string por outros
 enumerate() - Diz quantos characteres há na variável
+list() - vai listar todos os elementos dentro da variável
 
 ESCOPO DE VARIÁVEIS
 
@@ -221,5 +222,9 @@ Funcionam como vetores/matrizes (arrays) em outras línguas, com a diferença qu
 
 lista = []
 
+Para CONTAR O NÚMERO DE OCORRÊNCIAS de um elemento dentro de uma lista utilizamos: nome_da_lista.count(elemento_que_se_busca)
+Para ADICIONAR ELEMENTOS NA LISTA: nome_da_lista.append(elemento_que_se_adiciona) - Esse comando só adiciona um elemento por vez, que pode ser inclusive uma outra lista, cujos elementos devem constar entre []!
+Para ADICIONAR MAIS DE UM ELEMENTO NA LISTA POR VEZ: nome_da_lista.extend([elemento_que_se_adiciona, outro_elemento_adicionado, outro_elemento_adicionado])
+Para ADICIONAR ELEMENTOS INFORMANDO A POSIÇÃO ONDE FICARÃO: nome_da_lista.insert(posição, elemento_que_se_adiciona)
 
 """
