@@ -227,5 +227,15 @@ Para ADICIONAR ELEMENTOS NA LISTA: nome_da_lista.append(elemento_que_se_adiciona
 Para ADICIONAR MAIS DE UM ELEMENTO NA LISTA POR VEZ: nome_da_lista.extend([elemento_que_se_adiciona, outro_elemento_adicionado, outro_elemento_adicionado]). Também serve para inserir uma lista dentro de outra
 Para ADICIONAR ELEMENTOS INFORMANDO A POSIÇÃO ONDE FICARÃO: nome_da_lista.insert(posição, elemento_que_se_adiciona)
 Para JUNTAR DUAS LISTAS basta usar o sinal de soma: nova_lista = lista_1 + lista_2
+Para IMPRIMIR A LISTA INVERSA: nome_da_lista.reverse()
+Para ORGANIZAR os elementos da lista: nome_da_lista.sort OU nome_da_lista[::-1]
+Para COPIOR uma lista: nome_da_lista = lista_copiada.copy()
+Para SABER O TAMANHO DE UMA LISTA: print(len(nome_da_lista))
+Para REMOVER O ÚLTIMO ELEMENTO de uma lista: nome_da_lista.pop() - Cada vez que utilizar o .pop ele vai remover o último elemento. Não somente devolve o último elemento, como também o retorna
+Para REMOVR UM ELEMENTO PELO ÍNDICE: nome_da_lista.pop(posição do elemento específico que deseja remover)
+Para ZERAR UMA LISTA: nome_da_lista.clear()
+Para TRANSFORMAR UMA STRING EM LISTA: variável.split() - Em regra, vai reconhecer que cada nova palavra da lista é separada por espaço. Para definir o separador, ele deve ser informado entre os parênteses
+Para TRANSFORMAR UMA LISTA EM STRING: " ".join(nome_da_lista) - Vai pegar a lista e colocar espaços entre cada elemento, transformando em string. Mesma regra para definir o separador
 
+1:16
 """
