@@ -224,7 +224,8 @@ lista = []
 
 Para CONTAR O NÚMERO DE OCORRÊNCIAS de um elemento dentro de uma lista utilizamos: nome_da_lista.count(elemento_que_se_busca)
 Para ADICIONAR ELEMENTOS NA LISTA: nome_da_lista.append(elemento_que_se_adiciona) - Esse comando só adiciona um elemento por vez, que pode ser inclusive uma outra lista, cujos elementos devem constar entre []!
-Para ADICIONAR MAIS DE UM ELEMENTO NA LISTA POR VEZ: nome_da_lista.extend([elemento_que_se_adiciona, outro_elemento_adicionado, outro_elemento_adicionado])
+Para ADICIONAR MAIS DE UM ELEMENTO NA LISTA POR VEZ: nome_da_lista.extend([elemento_que_se_adiciona, outro_elemento_adicionado, outro_elemento_adicionado]). Também serve para inserir uma lista dentro de outra
 Para ADICIONAR ELEMENTOS INFORMANDO A POSIÇÃO ONDE FICARÃO: nome_da_lista.insert(posição, elemento_que_se_adiciona)
+Para JUNTAR DUAS LISTAS basta usar o sinal de soma: nova_lista = lista_1 + lista_2
 
 """
