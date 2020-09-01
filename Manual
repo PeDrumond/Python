@@ -237,5 +237,5 @@ Para ZERAR UMA LISTA: nome_da_lista.clear()
 Para TRANSFORMAR UMA STRING EM LISTA: variável.split() - Em regra, vai reconhecer que cada nova palavra da lista é separada por espaço. Para definir o separador, ele deve ser informado entre os parênteses
 Para TRANSFORMAR UMA LISTA EM STRING: " ".join(nome_da_lista) - Vai pegar a lista e colocar espaços entre cada elemento, transformando em string. Mesma regra para definir o separador
 
-1:16
+
 """
