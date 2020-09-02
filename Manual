@@ -228,7 +228,8 @@ Para ADICIONAR MAIS DE UM ELEMENTO NA LISTA POR VEZ: nome_da_lista.extend([eleme
 Para ADICIONAR ELEMENTOS INFORMANDO A POSIÇÃO ONDE FICARÃO: nome_da_lista.insert(posição, elemento_que_se_adiciona)
 Para JUNTAR DUAS LISTAS basta usar o sinal de soma: nova_lista = lista_1 + lista_2
 Para IMPRIMIR A LISTA INVERSA: nome_da_lista.reverse()
-Para ORGANIZAR os elementos da lista: nome_da_lista.sort OU nome_da_lista[::-1]
+Para ORGANIZAR os elementos da lista: nome_da_lista.sort 
+Para ORGANIZAR A LISTA DE TRÁS PRA FRENTE: nome_da_lista[::-1]
 Para COPIOR uma lista: nome_da_lista = lista_copiada.copy()
 Para SABER O TAMANHO DE UMA LISTA: print(len(nome_da_lista))
 Para REMOVER O ÚLTIMO ELEMENTO de uma lista: nome_da_lista.pop() - Cada vez que utilizar o .pop ele vai remover o último elemento. Não somente devolve o último elemento, como também o retorna
@@ -243,4 +244,15 @@ sum(lista) - Soma os elementos da lista
 max(lista) - Informa o maior elemento da lista
 min(lista) - Informa o menor elemento da lista
 len(lista) - Informa a quantidade de elementos de uma lista
+
+TUPLAS
+
+Diferente das listas, as tuplas são representadas por () e não por []. Além disso, tuplas são imutáveis, de forma que toda operação em uma tupla gera uma nova tupla.
+
+O que define uma tupla não é sequer esse uso de parênteses, e sim da vírgula, ainda que não seja seguida de qualquer elemento. Por exemplo:
+
+VARIÁVEL nome = tupla 
+TUPLA nome = tupla,
+
+
 """
