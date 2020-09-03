@@ -237,6 +237,7 @@ Para REMOVR UM ELEMENTO PELO ÍNDICE: nome_da_lista.pop(posição do elemento es
 Para ZERAR UMA LISTA: nome_da_lista.clear()
 Para TRANSFORMAR UMA STRING EM LISTA: variável.split() - Em regra, vai reconhecer que cada nova palavra da lista é separada por espaço. Para definir o separador, ele deve ser informado entre os parênteses
 Para TRANSFORMAR UMA LISTA EM STRING: " ".join(nome_da_lista) - Vai pegar a lista e colocar espaços entre cada elemento, transformando em string. Mesma regra para definir o separador
+Para IDENTIFICAR A POSIÇÃO DE UM ELEMENTO NUMA LISTA: nome_da_lista.index(elemento_que_se_busca, posicao_inicial_da_busca, posicao_final_da_busca)
 
 COMANDOS MATEMÁTICOS COM LISTAS
 
@@ -258,4 +259,14 @@ TUPLA nome = tupla,
 
 tupla = tuple(range(11))
 print(tupla)
+
+É possível fazer concatenação de tuplas, mesmo elas sendo imutáveis. 
+
+Utilizamos tuplas sempre que não precisarmos modificar os dados contidos em uma coleção, como por exemplo, uma tupla com os meses do ano.
+
+Todas as funções aplicáveis à listas também se aplicam a tuplas. Uma vantagem de usar tuplas é que elas são mais rápidas do que listas, e deixam o código mais seguro, por trabalham com elementos imutáveis.
+
+
+
+DICIONÁRIOS
 """
