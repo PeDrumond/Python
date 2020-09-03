@@ -254,5 +254,8 @@ O que define uma tupla não é sequer esse uso de parênteses, e sim da vírgula
 VARIÁVEL nome = tupla 
 TUPLA nome = tupla,
 
+É possível criar uma tupla com range (início, fim, passo)
 
+tupla = tuple(range(11))
+print(tupla)
 """
